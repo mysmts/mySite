@@ -1,15 +1,22 @@
-# Projeto Django Models
+# mysite
+Django Personal Blog
 
-Este repositório faz parte do curso da EBAC e tem como objetivo demonstrar o uso de modelos em um projeto Django.
+> python --version
+> python -m venv env
+cmd
+> .\env\Scripts\Activate.bat
+powrshell
+> .\env\Scripts\Activate.ps1
 
-## Estrutura do Projeto
+> python manage.py mysite\mysite\migrate
 
-- `mysite/`: Diretório principal do projeto Django.
-- `models`: Branch de desenvolvimento onde foi adicionado o projeto Django real.
+por padrão o django utiliza o banco de dados sqlite
 
-## Como rodar localmente
+> python manage.py runserver
 
-1. Crie e ative um ambiente virtual:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
+ENTREGANDO EXERCÍCIO PROPOSTO INSERINDO IMAGEM NO PULLREQUEST
+
+Segundo módulo de DJANGO
+estudando ORM
+
+> python mysite\mysite\manage.py makemigrations
